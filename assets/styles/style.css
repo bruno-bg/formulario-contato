@@ -93,7 +93,7 @@ textarea {
   transform: scale(1.05);
 }
 
-.circle {
+/* .circle {
   border-radius: 50%;
   background: linear-gradient(135deg, transparent 20%, #149279);
   position: absolute;
@@ -111,9 +111,9 @@ textarea {
   height: 80px;
   top: 10px;
   right: 30px;
-}
+} */
 
-.big-circle {
+/* .big-circle {
   position: absolute;
   width: 500px;
   height: 500px;
@@ -133,7 +133,7 @@ textarea {
   border-radius: 50%;
   top: calc(50% - 180px);
   left: calc(50% - 180px);
-}
+} */
 
 .square {
   position: absolute;
@@ -307,7 +307,7 @@ textarea.input {
   color: var(--cor-primaria);
 }
 
-.contact-info:before {
+/* .contact-info:before {
   content: "";
   position: absolute;
   width: 110px;
@@ -317,7 +317,7 @@ textarea.input {
   bottom: -77px;
   right: 50px;
   opacity: 0.3;
-}
+} */
 
 .contact-form {
   background-color: var(--cor-primaria);
@@ -493,6 +493,26 @@ textarea.input {
   user-select: none;
 }
 
+/* Estilização específica para o ícone de envelope */
+.fas.fa-envelope.icon {
+  color: var(--cor-primaria);  /* Cor do ícone - usando a variável de cor primária */
+  font-size: 22px;            /* Tamanho do ícone */
+  width: 28px;                /* Largura fixa para alinhar com outros ícones */
+  display: flex;
+  justify-content: center;    /* Centraliza horizontalmente */
+  text-align: center;
+}
+
+/* Estilização para todos os ícones Font Awesome */
+.fas.icon {
+  color: var(--cor-primaria);  /* Cor dos ícones */
+  font-size: 22px;            /* Tamanho do ícone */
+  width: 28px;                /* Largura fixa para alinhar todos os ícones */
+  display: flex;
+  justify-content: center;    /* Centraliza horizontalmente */
+  text-align: center;
+}
+
 /* FIM FORM */
 
 @media (max-width: 850px) {
@@ -592,5 +612,10 @@ textarea.input {
   
   .swal2-content {
     font-size: 0.9rem !important;
+  }
+  
+  .fas.icon {
+    font-size: 18px;          /* Tamanho menor em telas pequenas */
+    width: 23px;              /* Largura ajustada para telas menores */
   }
 }

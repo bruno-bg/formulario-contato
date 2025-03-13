@@ -46,7 +46,3 @@ O formulário usa variáveis CSS, facilitando a personalização de cores e esti
   /* ...outras variáveis... */
 }
 ```
-
-## Créditos
-
-Desenvolvido como parte do curso de Desenvolvimento Web - Anhanguera - 3º Semestre

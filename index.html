@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulário de contato</title>
+  <link rel="stylesheet" href="./assets/styles/style.css" />
+  <!-- Adicionar SweetAlert2 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <span class="big-circle"></span>
+    <!-- <img src="./assets/img/shape.png" class="square" alt="" /> -->
+    <div class="form">
+      <div class="contact-info">
+        <h3 class="title">Entre em contato</h3>
+        <p class="text">
+          Fale conosco para saber mais sobre nossos serviços e como podemos
+          ajudá-lo a alcançar seus objetivos. Estamos ansiosos para ouvir de você!
+        </p>
+        <div class="info">
+          <div class="information">
+            <img src="./assets/img/location.png" class="icon" alt="Localização" />
+            <p>Endereço, UF, Cidade</p>
+          </div>
+          <div class="information">
+            <img src="./assets/img/email.png" class="icon" alt="Email" />
+            <p>seu@email.com.br</p>
+          </div>
+          <div class="information">
+            <img src="./assets/img/phone.png" class="icon" alt="Telefone" />
+            <p>(12)3456-7890</p>
+          </div>
+        </div>
+
+        <div class="social-media">
+          <p>Saiba mais</p>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form action="index.html" id="meuFormulario" autocomplete="off">
+          <h3 class="title"></h3>
+          <!-- <h3 class="title">Contact us</h3> -->
+          <div class="input-container">
+            <input type="text" name="name" class="input" required />
+            <label for="">Nome</label>
+            <span>Nome</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" required />
+            <label for="">Email</label>
+            <span>Email</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="numeroTelefone" id="numeroTelefone" class="input" />
+            <label for="">Telefone</label>
+            <span>Telefone</span>
+          </div>
+          <div class="input-container textarea">
+            <textarea name="message" class="input" required></textarea>
+            <label for="">Mensagem</label>
+            <span>Mensagem</span>
+          </div>
+          <input type="submit" value="Enviar" class="btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carregue os scripts na ordem correta - removendo referências a arquivos de teste -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

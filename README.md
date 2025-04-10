@@ -2,6 +2,10 @@
 
 Um formulário de contato moderno e responsivo com validação em tempo real e feedback visual utilizando SweetAlert2.
 
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap;">
+  <img src="./assets/img/screenshot.png" alt="Preview do Sistema" width="49%">
+</div>
+
 ## Características
 
 - Design responsivo que se adapta a diferentes tamanhos de tela
